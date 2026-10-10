@@ -6,6 +6,7 @@
     "directory": "./out",
     "not_found_handling": "404-page"
   },
+  "workers_dev": true,
   "routes": [
     { "pattern": "samendolabs.com", "custom_domain": true },
     { "pattern": "www.samendolabs.com", "custom_domain": true }
