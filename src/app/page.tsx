@@ -11,46 +11,46 @@ const nav = [
 
 const principles = [
   {
-    title: "AI-native, not AI-added",
-    body: "We design systems around intelligence from the first line — not as a feature stapled onto software built for another era.",
+    title: "We build the whole thing",
+    body: "We design the tool around the job from the start, instead of bolting features onto something that never really fit.",
   },
   {
-    title: "Built for operators",
-    body: "The people doing the real work are our north star. We ship tools that disappear into their day and make the hard parts quiet.",
+    title: "Made for the people using it",
+    body: "The people doing the work come first. A good tool fades into the background and makes the hard parts easy.",
   },
   {
-    title: "Earned trust",
-    body: "Automation only matters when people rely on it. We build for accuracy, accountability, and the moments that actually count.",
+    title: "We earn the trust",
+    body: "People only rely on a tool they can count on. We build for accuracy and for the moments that really matter.",
   },
   {
-    title: "Small teams, deep ownership",
-    body: "Tight groups of people who care, close to the problem, shipping quickly and standing behind what they put into the world.",
+    title: "Small teams who care",
+    body: "Small groups, close to the problem, shipping quickly and standing behind what they make.",
   },
   {
-    title: "Compounding by design",
-    body: "Every product learns. The systems we build get sharper with use, turning everyday work into a durable advantage.",
+    title: "Better over time",
+    body: "Our tools get sharper the more they are used, so everyday work turns into a lasting advantage.",
   },
   {
-    title: "Taste as a discipline",
-    body: "Craft is a competitive edge. We sweat the details others skip, because quality is felt long before it is explained.",
+    title: "We sweat the details",
+    body: "Quality is a choice. We care about the small things other people skip, because you feel them even when you cannot name them.",
   },
 ];
 
 const approach = [
   {
     step: "01",
-    title: "Find the real work",
-    body: "We start inside the operations of an industry — the queues, the handoffs, the decisions made a thousand times a day — and look for where intelligence creates leverage.",
+    title: "We start with the work",
+    body: "We sit with the people doing the job and learn where the day gets hard: the waiting, the handoffs, the same task done over and over.",
   },
   {
     step: "02",
-    title: "Build the system",
-    body: "We design software that acts, not just advises: it does the work end to end, keeps a human in command, and improves every time it runs.",
+    title: "We build the tool",
+    body: "Then we build something that takes that work off their plate, keeps a person in charge, and holds up when things get busy.",
   },
   {
     step: "03",
-    title: "Operate and compound",
-    body: "We stay close to what we ship, measure what matters, and let each product grow more capable as it meets the real world.",
+    title: "We stick around",
+    body: "We do not disappear after launch. We watch how it is used, listen to what breaks, and keep making it better.",
   },
 ];
 
@@ -107,22 +107,22 @@ export default function Home() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-xs font-medium text-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                An AI-native company
+                A small software company
               </span>
             </div>
             <h1
               className="animate-fade-up mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
               style={{ animationDelay: "60ms" }}
             >
-              Intelligent software for the industries that run the real economy.
+              We build software that does the work, not just keeps track of it.
             </h1>
             <p
               className="animate-fade-up mt-7 max-w-2xl text-pretty text-lg leading-relaxed text-muted sm:text-xl"
               style={{ animationDelay: "120ms" }}
             >
-              Samendo Labs is an applied AI company. We build and operate systems
-              that do real work — close to the people who depend on them, and
-              sharper with every day they run.
+              Samendo Labs makes tools for the businesses that keep everyday
+              life running. We stay close to the people who use them, and we
+              fix what gets in their way.
             </p>
             <div
               className="animate-fade-up mt-10 flex flex-wrap items-center gap-3"
@@ -148,9 +148,9 @@ export default function Home() {
         <section className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
             <p className="max-w-4xl text-balance text-2xl font-medium leading-snug tracking-tight sm:text-3xl lg:text-4xl">
-              Most software was built to record work. We build software that{" "}
-              <span className="text-accent">does</span> it — and gets better the
-              more it is used.
+              Most software just keeps records. We build software that actually{" "}
+              <span className="text-accent">does</span> the job, and gets better
+              the more people use it.
             </p>
           </div>
         </section>
@@ -163,7 +163,7 @@ export default function Home() {
                 Approach
               </span>
               <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                We go deep into an industry, then build the system it needs.
+                We learn the work, then build the tool it needs.
               </h2>
             </div>
 
@@ -210,11 +210,11 @@ export default function Home() {
                 <div className="animate-drift absolute right-[-10%] top-[-40%] h-[420px] w-[420px] rounded-full bg-accent opacity-[0.1] blur-[110px]" />
               </div>
               <h2 className="max-w-3xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
-                We&rsquo;re a small team building for the long run.
+                We&rsquo;re a small team, here for the long run.
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-                If you want deep ownership, hard problems, and the chance to put
-                genuinely useful AI into the world, we&rsquo;d like to meet you.
+                If you like real ownership, hard problems, and building things
+                people actually use, we&rsquo;d like to meet you.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <a

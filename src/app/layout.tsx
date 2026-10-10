@@ -14,22 +14,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://samendolabs.com"),
-  title: "Samendo Labs — An AI-native company",
+  title: "Samendo Labs",
   description:
-    "Samendo Labs is an applied AI company building intelligent software for the industries that run the real economy.",
+    "Samendo Labs builds software that does the work for the businesses that keep everyday life running.",
   openGraph: {
-    title: "Samendo Labs — An AI-native company",
+    title: "Samendo Labs",
     description:
-      "An applied AI company building intelligent software for the industries that run the real economy.",
+      "We build software that does the work for the businesses that keep everyday life running.",
     url: "https://samendolabs.com",
     siteName: "Samendo Labs",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Samendo Labs — An AI-native company",
+    title: "Samendo Labs",
     description:
-      "An applied AI company building intelligent software for the industries that run the real economy.",
+      "We build software that does the work for the businesses that keep everyday life running.",
   },
 };
 
