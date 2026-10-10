@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 
 const CONTACT_EMAIL = "hello@samendolabs.com";
 
@@ -59,11 +60,8 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 border-b bg-[color:var(--background)]/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
-          <Link href="/" className="flex items-center gap-2.5" aria-label="Samendo Labs home">
-            <span className="grid h-7 w-7 place-items-center rounded-md bg-foreground text-background">
-              <span className="font-mono text-sm font-semibold">S</span>
-            </span>
-            <span className="text-[15px] font-semibold tracking-tight">Samendo Labs</span>
+          <Link href="/" aria-label="Samendo Labs home">
+            <Logo />
           </Link>
           <nav className="hidden items-center gap-8 md:flex">
             {nav.map((item) => (
@@ -240,12 +238,7 @@ export default function Home() {
       {/* Footer */}
       <footer>
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-14 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <div className="flex items-center gap-2.5">
-            <span className="grid h-7 w-7 place-items-center rounded-md bg-foreground text-background">
-              <span className="font-mono text-sm font-semibold">S</span>
-            </span>
-            <span className="text-[15px] font-semibold tracking-tight">Samendo Labs</span>
-          </div>
+          <Logo />
           <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted">
             {nav.map((item) => (
               <a
