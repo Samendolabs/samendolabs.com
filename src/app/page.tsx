@@ -11,24 +11,24 @@ const nav = [
 
 const principles = [
   {
-    title: "We build the whole thing",
-    body: "We design the tool around the job from the start, instead of bolting features onto something that never really fit.",
+    title: "AI from the ground up",
+    body: "We build the AI into the core of the product from day one, instead of bolting it onto something that was never made for it.",
   },
   {
     title: "Made for the people using it",
-    body: "The people doing the work come first. A good tool fades into the background and makes the hard parts easy.",
+    body: "The people doing the work come first. Good AI fades into the background and makes the hard parts easy.",
   },
   {
-    title: "We earn the trust",
-    body: "People only rely on a tool they can count on. We build for accuracy and for the moments that really matter.",
+    title: "AI you can rely on",
+    body: "People only trust a tool that gets it right. We build for accuracy and for the moments that really matter.",
   },
   {
-    title: "Small teams who care",
-    body: "Small groups, close to the problem, shipping quickly and standing behind what they make.",
+    title: "Small team, real ownership",
+    body: "Small groups, close to the problem, shipping quickly and standing behind what they build.",
   },
   {
-    title: "Better over time",
-    body: "Our tools get sharper the more they are used, so everyday work turns into a lasting advantage.",
+    title: "Better the more it runs",
+    body: "Our AI gets sharper the more it is used, so everyday work turns into a lasting advantage.",
   },
   {
     title: "We sweat the details",
@@ -39,18 +39,18 @@ const principles = [
 const approach = [
   {
     step: "01",
-    title: "We start with the work",
+    title: "We find the work",
     body: "We sit with the people doing the job and learn where the day gets hard: the waiting, the handoffs, the same task done over and over.",
   },
   {
     step: "02",
-    title: "We build the tool",
-    body: "Then we build something that takes that work off their plate, keeps a person in charge, and holds up when things get busy.",
+    title: "We build the AI",
+    body: "Then we build AI that takes that work off their plate, keeps a person in charge, and holds up when things get busy.",
   },
   {
     step: "03",
-    title: "We stick around",
-    body: "We do not disappear after launch. We watch how it is used, listen to what breaks, and keep making it better.",
+    title: "We keep it sharp",
+    body: "We do not disappear after launch. We watch how it runs, learn from it, and keep making it better.",
   },
 ];
 
@@ -107,22 +107,22 @@ export default function Home() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-xs font-medium text-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                A small software company
+                An AI-native lab
               </span>
             </div>
             <h1
               className="animate-fade-up mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
               style={{ animationDelay: "60ms" }}
             >
-              We build software that does the work, not just keeps track of it.
+              We build AI that does the work, not just keeps track of it.
             </h1>
             <p
               className="animate-fade-up mt-7 max-w-2xl text-pretty text-lg leading-relaxed text-muted sm:text-xl"
               style={{ animationDelay: "120ms" }}
             >
-              Samendo Labs makes tools for the businesses that keep everyday
-              life running. We stay close to the people who use them, and we
-              fix what gets in their way.
+              Samendo Labs is an AI-native lab. We build AI that takes on real
+              work for the businesses that keep everyday life running, and gets
+              better the more it runs.
             </p>
             <div
               className="animate-fade-up mt-10 flex flex-wrap items-center gap-3"
@@ -148,7 +148,7 @@ export default function Home() {
         <section className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
             <p className="max-w-4xl text-balance text-2xl font-medium leading-snug tracking-tight sm:text-3xl lg:text-4xl">
-              Most software just keeps records. We build software that actually{" "}
+              Most software just keeps records. We build AI that actually{" "}
               <span className="text-accent">does</span> the job, and gets better
               the more people use it.
             </p>
@@ -163,7 +163,7 @@ export default function Home() {
                 Approach
               </span>
               <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                We learn the work, then build the tool it needs.
+                We learn the work, then build the AI it needs.
               </h2>
             </div>
 
@@ -210,11 +210,12 @@ export default function Home() {
                 <div className="animate-drift absolute right-[-10%] top-[-40%] h-[420px] w-[420px] rounded-full bg-accent opacity-[0.1] blur-[110px]" />
               </div>
               <h2 className="max-w-3xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
-                We&rsquo;re a small team, here for the long run.
+                We&rsquo;re a small AI lab, here for the long run.
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-                If you like real ownership, hard problems, and building things
-                people actually use, we&rsquo;d like to meet you.
+                If you want to build AI that people actually rely on, with real
+                ownership and hard problems worth solving, we&rsquo;d like to
+                meet you.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <a
