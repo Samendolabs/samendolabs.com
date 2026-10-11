@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
+import { BookCall } from "@/components/BookCall";
 
 const CONTACT_EMAIL = "hello@samendolabs.com";
 
@@ -128,12 +129,9 @@ export default function Home() {
               className="animate-fade-up mt-10 flex flex-wrap items-center gap-3"
               style={{ animationDelay: "180ms" }}
             >
-              <a
-                href={`mailto:${CONTACT_EMAIL}?subject=AI%20strategy%20for%20my%20business`}
-                className="rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-              >
+              <BookCall className="cursor-pointer rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90">
                 Book a call
-              </a>
+              </BookCall>
               <a
                 href="#services"
                 className="rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-card"
@@ -218,12 +216,9 @@ export default function Home() {
                 worth, with no jargon and no obligation.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
-                <a
-                  href={`mailto:${CONTACT_EMAIL}?subject=AI%20strategy%20for%20my%20business`}
-                  className="rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-                >
+                <BookCall className="cursor-pointer rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90">
                   Book a call
-                </a>
+                </BookCall>
                 <a
                   href={`mailto:${CONTACT_EMAIL}`}
                   className="rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-background"
