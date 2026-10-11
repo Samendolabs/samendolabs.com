@@ -2,7 +2,7 @@
 
 import { useCallback } from "react";
 
-const CALENDLY_URL = "https://calendly.com/admin-samendolabs/30min";
+const CALENDLY_URL = "https://calendly.com/samendolabs/30min";
 const CALENDLY_CSS = "https://assets.calendly.com/assets/external/widget.css";
 const CALENDLY_JS = "https://assets.calendly.com/assets/external/widget.js";
 
