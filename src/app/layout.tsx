@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://samendolabs.com"),
   title: "Samendo Labs",
   description:
-    "Samendo Labs is an AI-native lab. We build AI that does real work for the businesses that keep everyday life running.",
+    "We build profitable AI products, and we help small businesses build their AI strategy. Hands-on AI help without Big Four prices.",
   openGraph: {
     title: "Samendo Labs",
     description:
-      "An AI-native lab building AI that does real work for the businesses that keep everyday life running.",
+      "We build profitable AI products, and we help small businesses build their AI strategy. Hands-on AI help without Big Four prices.",
     url: "https://samendolabs.com",
     siteName: "Samendo Labs",
     type: "website",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Samendo Labs",
     description:
-      "An AI-native lab building AI that does real work for the businesses that keep everyday life running.",
+      "We build profitable AI products, and we help small businesses build their AI strategy. Hands-on AI help without Big Four prices.",
   },
 };
 

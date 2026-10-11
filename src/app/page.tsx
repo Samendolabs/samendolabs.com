@@ -4,31 +4,31 @@ import { Logo } from "@/components/Logo";
 const CONTACT_EMAIL = "hello@samendolabs.com";
 
 const nav = [
-  { label: "Approach", href: "#approach" },
-  { label: "Principles", href: "#principles" },
-  { label: "Careers", href: "#careers" },
+  { label: "What we do", href: "#services" },
+  { label: "Why us", href: "#why" },
+  { label: "Contact", href: "#contact" },
 ];
 
-const principles = [
+const whyUs = [
   {
-    title: "AI from the ground up",
-    body: "We build the AI into the core of the product from day one, instead of bolting it onto something that was never made for it.",
+    title: "We build, we don't just advise",
+    body: "Every recommendation comes from something we have shipped ourselves, not from a textbook or a template deck.",
   },
   {
-    title: "Made for the people using it",
-    body: "The people doing the work come first. Good AI fades into the background and makes the hard parts easy.",
+    title: "Our own products are the proof",
+    body: "We build and run AI products that make money. That is how we know what actually works in the real world.",
   },
   {
-    title: "AI you can rely on",
-    body: "People only trust a tool that gets it right. We build for accuracy and for the moments that really matter.",
+    title: "Priced for small business",
+    body: "Senior, hands-on AI help without Big Four rates. We charge in a way a growing company can actually justify.",
   },
   {
-    title: "Small team, real ownership",
-    body: "Small groups, close to the problem, shipping quickly and standing behind what they build.",
+    title: "Forward-deployed engineers",
+    body: "We embed our engineers straight into your business to build with you, side by side, until the AI is live and working.",
   },
   {
-    title: "Better the more it runs",
-    body: "Our AI gets sharper the more it is used, so everyday work turns into a lasting advantage.",
+    title: "Fast and practical",
+    body: "A small team, close to your problem, moving quickly and focused on the few things that pay off.",
   },
   {
     title: "We sweat the details",
@@ -36,21 +36,21 @@ const principles = [
   },
 ];
 
-const approach = [
+const services = [
   {
     step: "01",
-    title: "We find the work",
-    body: "We sit with the people doing the job and learn where the day gets hard: the waiting, the handoffs, the same task done over and over.",
+    title: "AI strategy",
+    body: "We help you find where AI actually moves the needle in your business, and where it does not, so you spend only on what pays off.",
   },
   {
     step: "02",
-    title: "We build the AI",
-    body: "Then we build AI that takes that work off their plate, keeps a person in charge, and holds up when things get busy.",
+    title: "Build and ship",
+    body: "We do not stop at a plan. Our engineers embed with your team, build the AI, and put it into your day to day with a person in control.",
   },
   {
     step: "03",
-    title: "We keep it sharp",
-    body: "We do not disappear after launch. We watch how it runs, learn from it, and keep making it better.",
+    title: "Make it pay",
+    body: "We stay on after launch, measure what it earns, and keep improving it as your business grows.",
   },
 ];
 
@@ -107,38 +107,39 @@ export default function Home() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-xs font-medium text-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                An AI-native lab
+                An AI-native company
               </span>
             </div>
             <h1
               className="animate-fade-up mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
               style={{ animationDelay: "60ms" }}
             >
-              We build AI that does the work, not just keeps track of it.
+              We build profitable AI. Now we help you build yours.
             </h1>
             <p
               className="animate-fade-up mt-7 max-w-2xl text-pretty text-lg leading-relaxed text-muted sm:text-xl"
               style={{ animationDelay: "120ms" }}
             >
-              Samendo Labs is an AI-native lab. We build AI that takes on real
-              work for the businesses that keep everyday life running, and gets
-              better the more it runs.
+              Samendo Labs builds and runs its own AI products, and they turn a
+              profit. Now our forward-deployed engineers bring that experience
+              straight into small businesses that want a real AI strategy,
+              without Big Four prices or endless slide decks.
             </p>
             <div
               className="animate-fade-up mt-10 flex flex-wrap items-center gap-3"
               style={{ animationDelay: "180ms" }}
             >
               <a
-                href={`mailto:${CONTACT_EMAIL}`}
+                href={`mailto:${CONTACT_EMAIL}?subject=AI%20strategy%20for%20my%20business`}
                 className="rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
               >
-                Work with us
+                Book a call
               </a>
               <a
-                href="#approach"
+                href="#services"
                 className="rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-card"
               >
-                How we think
+                See what we do
               </a>
             </div>
           </div>
@@ -148,27 +149,27 @@ export default function Home() {
         <section className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
             <p className="max-w-4xl text-balance text-2xl font-medium leading-snug tracking-tight sm:text-3xl lg:text-4xl">
-              Most software just keeps records. We build AI that actually{" "}
-              <span className="text-accent">does</span> the job, and gets better
-              the more people use it.
+              We don&rsquo;t just advise on AI. We build it, ship it, and make it{" "}
+              <span className="text-accent">profitable</span>. Everything we tell
+              you, we have already done ourselves.
             </p>
           </div>
         </section>
 
-        {/* Approach */}
-        <section id="approach" className="border-b">
+        {/* What we do */}
+        <section id="services" className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
             <div className="flex flex-col gap-3">
               <span className="font-mono text-xs uppercase tracking-widest text-muted">
-                Approach
+                What we do
               </span>
               <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                We learn the work, then build the AI it needs.
+                From strategy to AI that is live and paying off.
               </h2>
             </div>
 
             <div className="mt-14 grid gap-px overflow-hidden rounded-2xl border bg-line md:grid-cols-3">
-              {approach.map((item) => (
+              {services.map((item) => (
                 <div key={item.step} className="flex flex-col gap-4 bg-card p-8">
                   <span className="font-mono text-sm text-accent">{item.step}</span>
                   <h3 className="text-xl font-semibold tracking-tight">{item.title}</h3>
@@ -179,20 +180,20 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Principles */}
-        <section id="principles" className="border-b">
+        {/* Why us */}
+        <section id="why" className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
             <div className="flex flex-col gap-3">
               <span className="font-mono text-xs uppercase tracking-widest text-muted">
-                Principles
+                Why us
               </span>
               <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                How we build.
+                Serious AI help for the businesses the big firms price out.
               </h2>
             </div>
 
             <div className="mt-14 grid gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-              {principles.map((item) => (
+              {whyUs.map((item) => (
                 <div key={item.title} className="flex flex-col gap-3 border-t pt-6">
                   <h3 className="text-lg font-semibold tracking-tight">{item.title}</h3>
                   <p className="text-[15px] leading-relaxed text-muted">{item.body}</p>
@@ -202,33 +203,33 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Careers / CTA */}
-        <section id="careers" className="border-b">
+        {/* Contact / CTA */}
+        <section id="contact" className="border-b">
           <div className="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
             <div className="relative overflow-hidden rounded-3xl border bg-card px-8 py-16 sm:px-14 sm:py-20">
               <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
                 <div className="animate-drift absolute right-[-10%] top-[-40%] h-[420px] w-[420px] rounded-full bg-accent opacity-[0.1] blur-[110px]" />
               </div>
               <h2 className="max-w-3xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
-                We&rsquo;re a small AI lab, here for the long run.
+                Let&rsquo;s figure out where AI fits in your business.
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-                If you want to build AI that people actually rely on, with real
-                ownership and hard problems worth solving, we&rsquo;d like to
-                meet you.
+                Tell us what you are trying to do. We will give you a straight
+                answer on where AI can help, what it would take, and what it is
+                worth, with no jargon and no obligation.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <a
-                  href={`mailto:${CONTACT_EMAIL}?subject=Joining%20Samendo%20Labs`}
+                  href={`mailto:${CONTACT_EMAIL}?subject=AI%20strategy%20for%20my%20business`}
                   className="rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
                 >
-                  Join the team
+                  Book a call
                 </a>
                 <a
                   href={`mailto:${CONTACT_EMAIL}`}
                   className="rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-background"
                 >
-                  Say hello
+                  Email us
                 </a>
               </div>
             </div>
