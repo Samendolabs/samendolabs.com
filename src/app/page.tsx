@@ -107,23 +107,22 @@ export default function Home() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-xs font-medium text-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                An AI-native company
+                Builders, not consultants
               </span>
             </div>
             <h1
               className="animate-fade-up mt-7 max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
               style={{ animationDelay: "60ms" }}
             >
-              We build profitable AI. Now we help you build yours.
+              We build AI for a living. Let us build yours.
             </h1>
             <p
               className="animate-fade-up mt-7 max-w-2xl text-pretty text-lg leading-relaxed text-muted sm:text-xl"
               style={{ animationDelay: "120ms" }}
             >
-              Samendo Labs builds and runs its own AI products, and they turn a
-              profit. Now our forward-deployed engineers bring that experience
-              straight into small businesses that want a real AI strategy,
-              without Big Four prices or endless slide decks.
+              Samendo Labs runs its own AI products at a profit. We put those
+              same engineers inside your business to build real, working AI with
+              you, at a price small companies can actually afford.
             </p>
             <div
               className="animate-fade-up mt-10 flex flex-wrap items-center gap-3"
